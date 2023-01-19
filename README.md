@@ -1,20 +1,6 @@
-# @aws-crypto/ie11-detection
-
-Functions for interact with IE11 browsers Crypto. The IE11 `window.subtle` functions are unique.
-This library is used to identify an IE11 `window` and then offering types for crypto functions.
-For example see @aws-crypto/random-source-browser
-
-## Usage
+# GoogleNoteKeeper Clone
+```
+This website is a clone of Google Notekeeper ,One can Store there todo list by sign In into it or if they are new to it then they can
+SignUp using email.
 
 ```
-import {isMsWindow} from '@aws-crypto/ie11-detection'
-
-if (isMsWindow(window)) {
-  // use `window.subtle.mscrypto`
-}
-
-```
-
-## Test
-
-`npm test`
