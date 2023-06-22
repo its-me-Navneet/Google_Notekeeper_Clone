@@ -12,10 +12,7 @@ const port=5000 ;
 
 app.use(express.json())   // to get the body element json
 
-// app.get('/',(req,res)=>{ 
-//    // console.log(req.body) ;
-//     res.send("hello World!!");
-// }) 
+
 
 
 
